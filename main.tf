@@ -11,7 +11,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "one" {
-  ami           = "ami-02b2c1b57c5105166"
+  ami           = "ami-0fdfb4d987b63ae72"
   instance_type = "t3.micro"
   tags = {
     Name = "Lavanya-server"
