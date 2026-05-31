@@ -8,3 +8,4 @@ resource "aws_instance" "one" {
   tags = {
     Name = "Lavanya-server"
   }
+}
